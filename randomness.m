@@ -5,7 +5,7 @@
 % returns an n-by-m matrix
 % of uniformly distributed random integers
 % between 1 and limit inclusive
-% You are not allowed to use randi
+% You are not allowed to use 
 % you can use rand
 % test the output with hist to make sure it's uniformally distributed
 
