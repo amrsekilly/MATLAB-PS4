@@ -10,6 +10,6 @@
 % test the output with hist to make sure it's uniformally distributed
 
 function UniMat = randomness(limit, n, m)
-    UniMat = 1+ floor(rand(n,m) * (limit));
+    UniMat = fix (1 + rand(n,m) * limit);
 end
 
