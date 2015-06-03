@@ -19,3 +19,4 @@ function mat = identity(n)
     %mat((2*ind) - (ind-1)) = 1;
     mat([ones]) = 1;
 end 
+
